@@ -1,0 +1,1 @@
+import Fastify from 'fastify'; import { TwinStore } from './domain/store'; import { registerRoutes } from './routes/app-routes'; export function buildApp(){const app=Fastify({logger:false});registerRoutes(app,new TwinStore());return app;}

@@ -1,0 +1,8 @@
+node_modules/
+dist/
+*.log
+.env
+
+BUG.md
+BUG_TASKS.md
+.DS_Store
